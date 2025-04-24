@@ -11,7 +11,9 @@ body{
 }
 
 .container{
-    
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1200px;
 }
 
 img{
@@ -32,6 +34,34 @@ h1{
     vertical-align: middle;
 }
 
+h2{
+    font-size: 2rem;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.first-section{
+    border: 1px solid grey;
+    padding: 20px 50px;
+}
+
+.second-section{
+    border: 1px solid grey;
+    padding: 50px;
+}
+
+ul{
+    list-style-position: inside;
+    padding-left: 20px;
+    line-height: 3rem;
+    margin-bottom: 30px;
+}
+
+li{
+    font-size: 1.5rem;
+}
 
 .white-text{
     color: white;
