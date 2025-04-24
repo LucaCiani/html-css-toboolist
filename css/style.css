@@ -12,8 +12,10 @@ body{
 
 .container{
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0;
     max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 img{
@@ -39,30 +41,96 @@ h2{
 }
 
 main{
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .first-section{
-    border: 1px solid grey;
     padding: 20px 50px;
+    border-bottom: 5px solid #f6f8f9;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1.2rem;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #45abe9;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+.btn-white{
+    color: grey;
+    background-color: white;
+    margin-left: 10px;
+    border: 1px solid grey;
 }
 
 .second-section{
-    border: 1px solid grey;
     padding: 50px;
 }
 
 ul{
-    list-style-position: inside;
-    padding-left: 20px;
     line-height: 3rem;
     margin-bottom: 30px;
+    list-style-type: none;
 }
 
 li{
     font-size: 1.5rem;
 }
 
-.white-text{
+.check{
+    color: green;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 6px 10px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.cross{
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 6px 9PX;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+.badge{
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 1rem;
     color: white;
+}
+
+.badge-blue{
+    background-color: #45abe9;
+}
+
+.badge-purple{
+    background-color: #9c72e4;
+}
+
+.badge-green{
+    background-color: #64c0a8;
+}
+
+.badge-orange{
+    background-color: #f29e33;
+}
+
+.badge-pink{
+    background-color: #d863a0;
+}
+
+.badge-lime{
+    background-color: #b0c926;
 }
